@@ -12,7 +12,7 @@ The repository includes:
 
 ## Model Summary
 
-The default configuration in [model.py](C:/Users/ACE/Documents/VIT-TINY/model.py) uses:
+The default configuration in `model.py` uses:
 
 - `embed_dim=256`
 - `hidden_dim=512`
@@ -48,13 +48,13 @@ Validation and test data use normalization only.
 
 ## Project Structure
 
-- [model.py](C:/Users/ACE/Documents/VIT-TINY/model.py): training entry point and evaluation
-- [train.py](C:/Users/ACE/Documents/VIT-TINY/train.py): PyTorch Lightning module
-- [encoder.py](C:/Users/ACE/Documents/VIT-TINY/encoder.py): Vision Transformer model
-- [transformer.py](C:/Users/ACE/Documents/VIT-TINY/transformer.py): transformer encoder block
-- [dataloader.py](C:/Users/ACE/Documents/VIT-TINY/dataloader.py): CIFAR-10 loading, transforms, and patch extraction
-- [checkpoint.py](C:/Users/ACE/Documents/VIT-TINY/checkpoint.py): paths, seed setup, and pretrained file download
-- [setup.py](C:/Users/ACE/Documents/VIT-TINY/setup.py): package metadata and dependencies
+- `model.py`: training entry point and evaluation
+- `train.py`: PyTorch Lightning module
+- `encoder.py`: Vision Transformer model
+- `transformer.py`: transformer encoder block
+- `dataloader.py`: CIFAR-10 loading, transforms, and patch extraction
+- `checkpoint.py`: paths, seed setup, and pretrained file download
+- `setup.py`: package metadata and dependencies
 
 ## Installation
 
@@ -120,3 +120,7 @@ The repository also contains an external tutorial log in `checkpoint_path/tutori
 - The current dataloaders use `num_workers=0`
 - The repo includes saved event files and checkpoints under `checkpoint_path/`
 - Some filenames and package references appear inconsistent, such as `transfomer` in `setup.py`; the current training code still works from the local source files
+
+## Author
+
+Abidoye Anuoluwapo
