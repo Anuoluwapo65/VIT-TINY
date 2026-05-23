@@ -1,0 +1,6 @@
+__pycache__
+build
+checkpoint_path
+data_path
+dist
+tiny_vision_transformer_pytorch.egg-info
